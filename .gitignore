@@ -1,0 +1,57 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+*~
+*.sw[mnpcod]
+.tmp
+*.tmp
+*.tmp.*
+UserInterfaceState.xcuserstate
+$RECYCLE.BIN/
+
+*.log
+log.txt
+
+
+/.sourcemaps
+/.versions
+/coverage
+
+# Ionic
+/.ionic
+/www
+/platforms
+/plugins
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+#Angular
+ .angular/cache/15.2.3/angular-webpack/4a30757f17c52f91f1cfafb3ce0d7a5f284bb51b/9.pack 
+ .angular/cache/15.2.3/angular-webpack/9fb3bf3714d34ee13fbb33a16100c6ce48a6dded/0.pack
+
